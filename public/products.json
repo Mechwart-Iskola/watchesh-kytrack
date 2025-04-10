@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Spirit rose",
+      "price": 1500,
+      "image": "/img/product1.png"
+    },
+    {
+      "title": "Khaki pilot",
+      "price": 1350,
+      "image": "/img/product2.png"
+    },
+    {
+      "title": "Jubilee black",
+      "price": 870,
+      "image": "/img/product3.png"
+    },
+    {
+      "title": "Fosil me3",
+      "price": 650,
+      "image": "/img/product4.png"
+    },
+    {
+      "title": "Duchen",
+      "price": 950,
+      "image": "/img/product5.png"
+    }
+  ]

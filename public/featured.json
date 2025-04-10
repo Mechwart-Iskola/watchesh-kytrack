@@ -1,0 +1,18 @@
+[
+    {
+      "image": "/img/featured1.png",
+      "title": "Jazzmaster",
+      "price": 1050
+    },
+    {
+      "image": "/img/featured2.png",
+      "title": "Ingersoll",
+      "price": 250
+    },
+    {
+      "image": "/img/featured3.png",
+      "title": "Rose gold",
+      "price": 890
+    }
+  ]
+  

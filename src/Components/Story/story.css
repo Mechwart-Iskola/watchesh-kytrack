@@ -1,0 +1,141 @@
+.story {
+    padding: 6.5rem 0 1rem;
+    max-width: 1024px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.story__container {
+    display: grid;
+    row-gap: 7.5rem;
+}
+
+.story__title {
+
+    margin-bottom: var(--mb-1);
+}
+
+.story__description {
+    margin-bottom: var(--mb-2-5);
+}
+
+.story__images {
+    position: relative;
+}
+
+.story__img,
+.story__square {
+    width: 250px;
+}
+
+.story__square {
+    height: 250px;
+    background-color: var(--first-color);
+}
+
+.story__img {
+    position: absolute;
+    left: 3rem;
+    top: -3rem;
+}
+
+.section__title {
+    margin-top: 2rem;
+    position: relative;
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-3);
+
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.section__title::before {
+    content: '';
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 67px;
+    height: 1px;
+    background-color: var(--first-color);
+}
+
+@media screen and (max-width: 320px) {
+
+    .story__square,
+    .story__img {
+        width: 180px;
+    }
+
+    .story__square {
+        height: 180px;
+    }
+
+
+}
+
+@media screen and (min-width: 767px) {
+    .section {
+        padding: 8rem 0 1rem;
+    }
+
+
+    .story__container {
+        font-size: var(--normal-font-size);
+
+        align-items: center;
+    }
+
+    .story__section-title {
+        text-align: initial;
+    }
+
+    .story__section-title::before {
+        margin: initial;
+    }
+
+    .story__images {
+        order: -1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section__title {
+        font-size: var(--h2-font-size);
+    }
+
+    .story {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .story__container {
+        column-gap: 8rem;
+    }
+
+    .story__square,
+    .story__img {
+        width: 450px;
+    }
+
+    .story__square {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .story__container {
+        column-gap: 13rem;
+    }
+
+    .story__container {
+        padding-top: 3rem;
+    }
+
+    .story__img {
+        left: 5rem;
+        top: -5rem;
+    }
+}
