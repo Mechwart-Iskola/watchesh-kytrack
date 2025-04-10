@@ -90,7 +90,9 @@ h4 {
   font-weight: var(--font-medium);
 }
 
-ul {}
+ul {
+  list-style: none;
+}
 
 a {
   text-decoration: none;
